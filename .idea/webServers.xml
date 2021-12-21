@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="f58ab075-44df-49a7-9399-3b8530f03d4b" name="App Server" url="http://blackjack.pdrake.me">
+        <fileTransfer rootFolder="/home/euspigz3af7d" accessType="SFTP" host="68.178.244.59" port="22" sshConfigId="49340507-e7bd-4e49-bb4b-8b753c3d201d" sshConfig="euspigz3af7d@68.178.244.59:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

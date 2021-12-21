@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="App Server" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="App Server">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/blackjack.pdrake.me" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
