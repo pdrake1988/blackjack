@@ -25,7 +25,7 @@ function App() {
     useEffect(() => {
         setDealerHand(2);
         setPlayerHand(2);
-    }, [dealerHand, playerHand])
+    }, []);
     return (
     <React.Fragment>
         <header className={'d-flex flex-row justify-content-center'}>

@@ -7,11 +7,14 @@ interface Params {
     isDealerWinner: boolean;
 }
 export default function DealerHand(props: Params) {
-    console.log(props.hand)
+    console.log(props.hand);
+    if(props.hand.length === 0) {
+        return null;
+    }
     return(
         <div className={'d-flex justify-content-center'}>
             <div>
-                <img className={!props.isPlayerWinner || !props.isDealerWinner ? 'img-fluid' : 'd-none'}
+                <img className={(!props.isPlayerWinner && !props.isDealerWinner)  ? 'img-fluid' : 'd-none'}
                      src={'/pictures/9169ef73b3564976a7dc564d66861027--playing-cards-art-bicycles.jpg'} alt={'Card Back'}/>
                 <img className={props.isPlayerWinner || props.isDealerWinner ? 'img-fluid' : 'd-none'}
                      src={props.hand[0].image} alt={'Card Face'}/>
